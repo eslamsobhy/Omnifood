@@ -19,6 +19,17 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.clear-fix {
+  zoom: 1;
+}
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /*------------------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*------------------------------------------*/
@@ -242,6 +253,12 @@ header {
 /*------------------------------------------*/
 /* HOW IT WORKS */
 /*------------------------------------------*/
+
+.section-steps {
+  background-color: #f4f4f4;
+  padding-top: 80px;
+  margin-top: 0px;
+}
 
 .steps-box:first-child {
   text-align: right;
