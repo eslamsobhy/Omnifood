@@ -185,6 +185,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -361,6 +362,7 @@ header {
   background-size: cover;
   padding: 80px 0;
   color: #fff;
+  background-attachment: fixed;
 }
 
 blockquote:before {
