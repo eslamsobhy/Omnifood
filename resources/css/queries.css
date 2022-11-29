@@ -1,6 +1,13 @@
 /* iPads and small computers: from 1024px -> 1200px (widths smaller than 1140px row) */
 @media only screen and (max-width: 1200px) {
-  /* styles */
+  .hero-text-box {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
 }
 
 /* small tablets to big tablets: from 768px -> 1023px */
