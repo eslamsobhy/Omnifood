@@ -204,12 +204,21 @@ header {
 }
 
 .logo {
-  width: 100px;
-  height: auto;
+  height: 100px;
+  width: auto;
   float: left;
   margin-top: 20px;
 }
 
+.logo-black {
+  display: none;
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 3px 0;
+}
+
+/* Main navbar */
 .main-nav {
   float: right;
   margin-top: 15px;
@@ -237,6 +246,35 @@ header {
 .main-nav li a:hover {
   /* font-size: 105%; */
   border-bottom: 2px solid #e67e22;
+}
+
+/* Sticky navbar */
+.sticky {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky .logo-black {
+  display: block;
+}
+
+.sticky .logo {
+  display: none;
+}
+
+.sticky .main-nav {
+  margin-top: 15px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 16px 0;
+  color: #555;
 }
 
 /*------------------------------------------*/
