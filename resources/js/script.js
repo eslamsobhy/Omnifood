@@ -121,6 +121,14 @@ $(".js--wp-4-3").waypoint(
   { offset: "50%" }
 );
 
+// Plans
+$(".js--wp-5").waypoint(
+  function (direction) {
+    $(".js--wp-5").addClass("animate__pulse");
+  },
+  { offset: "50%" }
+);
+
 // The problem:
 // - we want to toggle the class once we enter a specific section
 // - we used waypoints js plugin to do so

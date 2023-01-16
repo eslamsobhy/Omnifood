@@ -665,3 +665,12 @@ footer p {
 .js--wp-4-3.animate__slideInRight {
   opacity: 1;
 }
+
+/* Plans */
+.js--wp-5 {
+  opacity: 0;
+}
+
+.js--wp-5.animate__pulse {
+  opacity: 1;
+}
