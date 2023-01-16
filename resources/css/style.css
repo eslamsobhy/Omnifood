@@ -621,3 +621,11 @@ footer p {
 .js--wp-1.animate__fadeInUp {
   opacity: 1;
 }
+
+.js--wp-2 {
+  opacity: 0;
+}
+
+.js--wp-2.animate__slideInUp {
+  opacity: 1;
+}

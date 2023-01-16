@@ -82,6 +82,13 @@ $(".js--wp-1").waypoint(
   { offset: "50%" }
 );
 
+$(".js--wp-2").waypoint(
+  function (direction) {
+    $(".js--wp-2").addClass("animate__slideInUp");
+  },
+  { offset: "50%" }
+);
+
 // The problem:
 // - we want to toggle the class once we enter a specific section
 // - we used waypoints js plugin to do so
