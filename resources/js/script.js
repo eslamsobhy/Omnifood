@@ -1,5 +1,6 @@
 $(document).ready(function () {
   // class toggling feature using waypoint to determine where to toggle!
+  // for the sticky navigation!
   $(".js--features").waypoint(
     function (direction) {
       if (direction === "down") {
@@ -10,6 +11,21 @@ $(document).ready(function () {
     },
     { offset: "140px" }
   );
+
+  // for scrolling buttons
+  $(".js--scroll-to-plans").click(function () {
+    $("html, body").animate(
+      { scrollTop: $(".js--section-plans").offset().top },
+      1000
+    );
+  });
+
+  $(".js--scroll-to-features").click(function () {
+    $("html, body").animate(
+      { scrollTop: $(".js--features").offset().top },
+      1000
+    );
+  });
 });
 
 // The problem:
