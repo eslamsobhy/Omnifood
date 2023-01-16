@@ -99,6 +99,28 @@ $(".js--wp-3").waypoint(
   { offset: "50%" }
 );
 
+// testimonials
+$(".js--wp-4-1").waypoint(
+  function (direction) {
+    $(".js--wp-4-1").addClass("animate__slideInLeft");
+  },
+  { offset: "50%" }
+);
+
+$(".js--wp-4-2").waypoint(
+  function (direction) {
+    $(".js--wp-4-2").addClass("animate__slideInUp");
+  },
+  { offset: "50%" }
+);
+
+$(".js--wp-4-3").waypoint(
+  function (direction) {
+    $(".js--wp-4-3").addClass("animate__slideInRight");
+  },
+  { offset: "50%" }
+);
+
 // The problem:
 // - we want to toggle the class once we enter a specific section
 // - we used waypoints js plugin to do so
