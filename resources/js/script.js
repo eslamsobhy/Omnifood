@@ -75,6 +75,7 @@ $(document).ready(function () {
 });
 
 // Animations on scroll
+// features
 $(".js--wp-1").waypoint(
   function (direction) {
     $(".js--wp-1").addClass("animate__fadeInUp");
@@ -82,9 +83,18 @@ $(".js--wp-1").waypoint(
   { offset: "50%" }
 );
 
+// mobile phone
 $(".js--wp-2").waypoint(
   function (direction) {
     $(".js--wp-2").addClass("animate__slideInUp");
+  },
+  { offset: "50%" }
+);
+
+// cities
+$(".js--wp-3").waypoint(
+  function (direction) {
+    $(".js--wp-3").addClass("animate__rotateInUpRight");
   },
   { offset: "50%" }
 );

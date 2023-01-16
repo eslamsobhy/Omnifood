@@ -614,6 +614,7 @@ footer p {
 /* Animations */
 /*------------------------------------------*/
 
+/* features */
 .js--wp-1 {
   opacity: 0;
 }
@@ -622,10 +623,20 @@ footer p {
   opacity: 1;
 }
 
+/* mobile phone */
 .js--wp-2 {
   opacity: 0;
 }
 
 .js--wp-2.animate__slideInUp {
+  opacity: 1;
+}
+
+/* cities */
+.js--wp-3 {
+  opacity: 0;
+}
+
+.js--wp-3.animate__rotateInUpRight {
   opacity: 1;
 }
