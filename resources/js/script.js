@@ -74,6 +74,14 @@ $(document).ready(function () {
     });
 });
 
+// Animations on scroll
+$(".js--wp-1").waypoint(
+  function (direction) {
+    $(".js--wp-1").addClass("animate__fadeInUp");
+  },
+  { offset: "50%" }
+);
+
 // The problem:
 // - we want to toggle the class once we enter a specific section
 // - we used waypoints js plugin to do so

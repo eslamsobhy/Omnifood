@@ -609,3 +609,15 @@ footer p {
   text-align: center;
   font-size: 90%;
 }
+
+/*------------------------------------------*/
+/* Animations */
+/*------------------------------------------*/
+
+.js--wp-1 {
+  opacity: 0;
+}
+
+.js--wp-1.animate__fadeInUp {
+  opacity: 1;
+}
