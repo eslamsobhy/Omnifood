@@ -95,10 +95,15 @@
   }
 
   .main-nav {
-    /* display: none; */
+    display: none;
     float: left;
     margin-top: 35px;
     margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .main-nav.toggle {
+    display: block;
   }
 
   .main-nav li {

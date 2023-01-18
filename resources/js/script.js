@@ -136,3 +136,20 @@ $(".js--wp-5").waypoint(
 // - the direction parameter determines either we are scrolling up, or down
 // - the object passed with the offset property makes us decide where exactly to do the toggle
 // - {offset: 140px} => will toggle before entering the desired section by 140px
+
+// responsive navbar
+$(".mobile-nav-icon").click(function () {
+  let element = $(".main-nav");
+  let icon = $(".ph-list-bold"); //nav icon
+
+  // if the nav is open
+  if (element.hasClass("toggle")) {
+    // change the nav icon to (x)
+    icon.removeClass("ph-x-circle-bold");
+    // display the nav
+    element.removeClass("toggle");
+  } else {
+    icon.addClass("ph-x-circle-bold");
+    element.addClass("toggle");
+  }
+});
