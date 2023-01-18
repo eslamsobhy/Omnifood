@@ -142,6 +142,8 @@ $(".mobile-nav-icon").click(function () {
   let element = $(".main-nav");
   let icon = $(".ph-list-bold"); //nav icon
 
+  element.slideToggle(250);
+
   // if the nav is open
   if (element.hasClass("toggle")) {
     // change the nav icon to (x)
