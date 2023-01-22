@@ -154,6 +154,20 @@
     padding-right: 0%;
   }
 
+  .steps-box.steps-points {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .app-btn {
+    margin: 10px auto;
+  }
+
+  .step-p {
+    margin-left: 4rem;
+  }
+
   .app-screen {
     width: 40%;
   }
